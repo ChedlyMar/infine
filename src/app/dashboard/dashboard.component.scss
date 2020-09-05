@@ -1,0 +1,271 @@
+// Main colors
+$primary: #003057;
+$secondary: #00C4B3;
+$tertiary: #248ED8;
+
+// Secondary colors
+$snow: #FFFFFF;
+$pearl: #EFF1F2;
+$smoke: #D7DADB;
+$fossil: #9A9A9A;
+$shadow: #525354;
+$ink: #000000;
+
+*{
+  color: $snow;
+}
+
+.container-fluid{
+  //width: 100%;
+  background-color: $pearl;
+  padding: 25px 80px 15px 80px;
+}
+
+.secondary-color{
+  color: $secondary;
+  margin-bottom: 0px;
+  font-style: italic;
+  line-height: 1.5;
+}
+.card-text{
+  font-size: 14px;
+  font-weight: bold;
+
+}
+.darck-title{
+  color: $primary;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.col{
+  margin: 10px;
+}
+.strategie{
+  margin-top: 0px;
+}
+.gradient{
+  background: rgb(0,48,87);
+  background: linear-gradient(90deg, rgba(0,48,87,1) 11%, rgba(18,88,136,1) 73%, rgba(36,142,216,1) 100%);
+  border-radius: 10px;
+}
+
+.d-block{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+.half{
+  padding: 0px 24px;
+}
+.card {
+  border-radius: 10px;
+  border: 0;
+  background-color: $snow;
+  margin-bottom: 10px;
+}
+
+.card-header{
+  border: 3px solid $snow;
+  background-color: $primary;
+  border-radius: 10px 10px 0 0;
+  height: 70px;
+  padding-bottom: 26px;
+  p{
+    padding-left: 36px;
+    text-align: left;
+    padding-top: 10px;
+  }
+}
+.img-center{
+  width: 135px;
+  margin-bottom: 20px;
+}
+
+
+.card-link{
+  font-style: none;
+  color: $tertiary;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 25px;
+  padding:  4px 12px 6px 2px;
+
+}
+
+
+.card-img-left{
+  position: absolute;
+  top:25px;
+  left: -30px;
+  width: 60px;
+}
+
+.card-img-right{
+  position: absolute;
+  top:-25px;
+  left: 72%;
+  width: 160px;
+}
+
+.rounded-circle{
+  padding-top: 6px;
+  background-color: $secondary;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  font-size: 12px;
+  font-weight: bolder;
+  top: 28px;
+  left: 18px;
+  border: 1px solid $snow;
+}
+
+.d-block{
+  filter: brightness(50%);
+}
+.small-line{
+  margin: -6px 180px 8px 180px ;
+}
+.body-card{
+  margin-left: 40px;
+}
+.carousel, .carousel-inner{
+  border-radius: 8px;
+}
+.carousel-caption{
+  top: -10px;
+  margin-bottom: 0px;
+  h5{
+    font-size: 14px;
+    padding-bottom: 7px;
+  }
+  p{
+    font-size: 10px;
+    padding-bottom: 2px;
+  }
+  a{
+    font-size: 10px;
+    padding: 6px 14px 5px 14px;
+    border-radius: 14px 14px 0px 0px ;
+    background-color: $tertiary;
+  }
+}
+
+table{
+  //font-style: none;
+  //font-weight: 8px;
+
+  tr{
+    border-bottom: 1px solid $smoke;
+
+  }
+  th{
+    color: $shadow;
+    font-size: 12px;
+    font-weight: bolder;;
+   }
+   td{
+    color: $primary;
+    font-size: 11px;
+    font-weight: bolder;
+    padding: 10px 0px 6px 8px;
+
+    .content-right{
+    text-align: right;
+    }
+
+    img{
+      width: 8px;
+    }
+   }
+   .content-right{
+    text-align: right;
+    color: $tertiary;
+
+    }
+
+}
+.aside-col{
+  padding-top: 10px;
+}
+
+.aside-header{
+  padding-left: 60px;
+}
+
+
+.border{
+  border: 1px solid;
+  padding: 0px 20px ;
+  p{
+    font-size: 14px;
+    font-weight: bold;;
+  span{
+    color: $fossil;
+  }}
+}
+.asid-card{
+  width: 90%;
+  margin-top: 22px;
+  margin-left: 16px;
+
+  .card-body{
+    padding: 0;
+    font-style:none;
+  }
+
+h6{
+  font-weight:normal;
+}
+
+
+  .card-header{
+    background-color: $primary;
+    border-radius: 10px 10px 0 0;
+    height: 40px;
+    padding-top: 10px;
+
+    color: $snow;
+    border: 0px;
+
+
+  }
+  .card-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: $primary;
+    padding-bottom: 15px;
+    padding-top: 8px;
+  }
+  .writer{
+    color: $shadow;
+    font-weight: bolder;
+    padding-bottom: 0px;
+  }
+  .content{
+    color: $ink;
+    font-size: 12px;;
+    //font-weight: lighter;
+    padding-bottom: 12px;
+  }
+  .card-footer{
+    background-color: $snow;
+    color: $shadow;
+    font-size: 12px;
+    font-weight:bold;
+    padding: 8px 12px 8px 0px;
+
+    img{
+      padding-right: 6px;
+    }
+  }
+}
+
+hr{
+  margin: 10px;
+  border-top: 2px solid  $secondary;
+}
+
+

@@ -1,0 +1,26 @@
+// Main colors
+$primary: #003057;
+$secondary: #00C4B3;
+$tertiary: #248ED8;
+
+// Secondary colors
+$snow: #FFFFFF;
+$pearl: #EFF1F2;
+$smoke: #D7DADB;
+$fossil: #9A9A9A;
+$shadow: #525354;
+$ink: #000000;
+
+/* You can add global styles to this file, and also import other style files */
+$site-font: 'Source Sans Pro', 'sans-serif';
+
+* {
+  font-family: $site-font;
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
